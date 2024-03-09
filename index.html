@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+
+    <title>Proyecto MisPelis</title>
+  </head>
+  <body>
+    <div class="layout">
+      <!-- Cabecera -->
+      <header class="header">
+        <div class="logo">
+          <!-- <img src="img/logo.png" alt="MisPelis" />   -->
+          <div class="play"></div>
+        </div>
+        <h1>Titulo MisPelis</h1>
+      </header>
+      <!-- Barra de navegacion -->
+      <nav class="nav">
+        <ul>
+          <li><a href="index.php">Inicio</a></li>
+          <li><a href="peliculas.php">Películas</a></li>
+          <li><a href="blog.php">Blog</a></li>
+          <li><a href="contacto.php">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- Contenido principal -->
+      <section class="content">
+        <!-- aquí van las películas -->
+        <article class="peli-item">
+          <ul>
+            <li>
+              <h3 class="title">El señor de los anillos</h3>
+              <p class="description">
+                El señor de los anillos 
+                por.
+              </p>
+              <button class="edit">Editar</button>
+              <button class="delete">Borrar</button>
+            </li>
+          </ul>
+        </article>
+        <article class="peli-item">
+          <ul>
+            <li>
+              <h3 class="title">Malo Furioso</h3>
+              <p class="description">
+                delectus, similique facere inventore!.
+              </p>
+              <button class="edit">Editar</button>
+              <button class="delete">Borrar</button>
+            </li>
+          </ul>
+        </article>
+        <article class="peli-item">
+          <ul>
+            <li>
+              <h3 class="title">Alton Milenario</h3>
+              <p class="description">
+                iusto reiciendis..
+              </p>
+              <button class="edit">Editar</button>
+              <button class="delete">Borrar</button>
+            </li>
+          </ul>
+        </article>
+      </section>
+      <!-- Barra lateral -->
+      <aside class="lateral">
+        <div>
+          <h3>Buscador</h3>
+          <form>
+
+            <input type="text" name="search" placeholder="Buscar..." />
+            <br />
+            <button>Buscar</button>
+          </form>
+        </div>
+        <br />
+        <div>
+            <h3>Añadir película</h3>
+            <form>
+            <input type="text" name="title" placeholder="Título" />
+            <textarea name="description" placeholder="Descripción"></textarea>
+            <br />
+            <input type="submit" value="Guardar" />
+          </form>
+        </div>
+      </aside>
+
+      <!-- Pie de pagina -->
+      <footer class="footer">
+        <p>&copy; Master en JavaScript</p>
+      </footer>
+    </div>
+  </body>
+</html>
